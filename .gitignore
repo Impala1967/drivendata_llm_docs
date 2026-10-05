@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Competition data - NEVER commit
+data/
+
+# Generated outputs
+outputs/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
